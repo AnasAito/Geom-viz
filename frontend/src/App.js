@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Heading from "./layouts/heading";
 function App() {
   return (
     <div className="App">
-      <div class="bg-red-400 h-96 w-96">geomviz</div>
+      <Heading />
     </div>
   );
 }
